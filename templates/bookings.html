@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Bookings - Service Link{% endblock %}
+{% block content %}
+    <h1>Your Bookings</h1>
+    <ul>
+        {% for booking in bookings %}
+            <li>{{ booking.service_name }} - {{ booking.worker.name }} on {{ booking.date }}</li>
+        {% empty %}
+            <li>No bookings yet.</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

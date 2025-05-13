@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Service Link{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <nav>
+        <a href="{% url 'index' %}">Home</a>
+        <a href="{% url 'bookings' %}">Bookings</a>
+        <a href="{% url 'worker_profile' %}">Worker Profile</a>
+    </nav>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <script src="{% static 'js/script.js' %}"></script>
+</body>
+</html>

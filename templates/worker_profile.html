@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Worker Profile - Service Link{% endblock %}
+{% block content %}
+    <h1>Worker Profile</h1>
+    <p>Name: {{ worker.name }}</p>
+    <p>Profession: {{ worker.profession }}</p>
+    <p>Experience: {{ worker.experience }} years</p>
+    <p>Rating: {{ worker.rating }}/5</p>
+{% endblock %}
