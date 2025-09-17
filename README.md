@@ -48,6 +48,14 @@ python main.py
 
 
 ---
+## Preview 
+
+<img width="1414" height="738" alt="image" src="https://github.com/user-attachments/assets/b3f60f94-4b00-43b3-bdae-ac62c4b59b69" />
+
+
+
+<img width="1225" height="633" alt="image" src="https://github.com/user-attachments/assets/c65ed6ec-b286-4d3e-8a50-deffb9ca1ccd" />
+
 
 ## Usage
 
